@@ -1,5 +1,6 @@
 # MedTerms MCP Server
 
+
 **Medical terminology intelligence for AI agents.**
 
 Built on free public NIH APIs. Covers ICD-10-CM, MedDRA, RxNorm, CTCAE v5.0, and cross-terminology mapping — the coding systems used in every regulatory submission, clinical trial, and pharmacovigilance report.
