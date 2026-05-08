@@ -1,0 +1,32 @@
+{
+  "name": "medterms-mcp",
+  "version": "1.0.0",
+  "description": "Medical terminology MCP server \u2014 ICD-10, MedDRA, RxNorm, CTCAE for AI agents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "medical",
+    "terminology",
+    "icd10",
+    "meddra",
+    "rxnorm",
+    "ctcae",
+    "pharma",
+    "healthcare",
+    "ai-agents"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  },
+  "type": "module",
+  "bin": {
+    "medterms-mcp": "./index.js"
+  }
+}
