@@ -1,0 +1,45 @@
+name: MedTerms MCP
+description: Medical terminology intelligence for AI agents — ICD-10-CM lookup, MedDRA hierarchy and SOC mapping, RxNorm drug concepts, CTCAE v5.0 grading, and cross-terminology mapping. Built by a CMPP-certified PhD in Neuroscience with 10+ years in pharma medical communications. No API key required.
+version: 1.0.0
+license: MIT
+homepage: https://github.com/pubspro/medterms-mcp
+category: healthcare
+tags:
+  - medical
+  - pharma
+  - icd10
+  - meddra
+  - rxnorm
+  - ctcae
+  - terminology
+  - healthcare
+  - oncology
+  - pharmacovigilance
+  - ai-agents
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties: {}
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: "npx",
+      args: ["medterms-mcp"],
+      env: {}
+    })
+
+tools:
+  - name: lookup_icd10
+    description: Search ICD-10-CM codes by diagnosis name or look up a specific code. Returns code, full description, and category. Essential for clinical documentation agents.
+  - name: lookup_meddra
+    description: Look up a MedDRA Preferred Term (PT), identify its System Organ Class (SOC), hierarchy level, and related LLT synonyms. Critical for adverse event coding, pharmacovigilance, and regulatory submissions.
+  - name: lookup_rxnorm
+    description: Look up a drug's RxNorm concept, RxCUI identifier, ingredient relationships, ATC drug class, and brand/generic mapping. RxNorm is the standard for drug interoperability across EHR systems.
+  - name: crossmap_icd_meddra
+    description: Cross-map between ICD-10 and MedDRA terminology with regulatory context. Critical for regulatory submissions, REMS, and pharmacovigilance.
+  - name: search_medical_concept
+    description: Search for a medical concept across terminology systems including ICD-10-CM, MedDRA, and RxNorm.
+  - name: lookup_ctcae
+    description: Look up NCI CTCAE v5.0 grading criteria for an adverse event. Essential for oncology clinical trial safety reporting.
