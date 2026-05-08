@@ -1,0 +1,30 @@
+{
+  "name": "MedTerms MCP",
+  "description": "Medical terminology intelligence for AI agents — ICD-10-CM lookup, MedDRA hierarchy and SOC mapping, RxNorm drug concepts, CTCAE v5.0 grading, and cross-terminology mapping. Built by a CMPP-certified PhD in Neuroscience with 10+ years in pharma medical communications. No API key required — uses free NIH public APIs.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pubspro/medterms-mcp",
+  "license": "MIT",
+  "tools": [
+    {
+      "name": "lookup_icd10",
+      "description": "Search ICD-10-CM codes by diagnosis name or look up a specific code. Returns code, full description, and category."
+    },
+    {
+      "name": "lookup_meddra",
+      "description": "Look up a MedDRA Preferred Term (PT), identify its System Organ Class (SOC), hierarchy level, and related LLT synonyms. Critical for adverse event coding and pharmacovigilance."
+    },
+    {
+      "name": "lookup_rxnorm",
+      "description": "Look up a drug's RxNorm concept, RxCUI identifier, ingredient relationships, ATC drug class, and brand/generic mapping."
+    },
+    {
+      "name": "crossmap_icd_meddra",
+      "description": "Cross-map between ICD-10 and MedDRA terminology with regulatory context. Critical for regulatory submissions, REMS, and pharmacovigilance."
+    },
+    {
+      "name": "search_medical_concept",
+      "description": "Search for a medical concept across terminology systems including ICD-10-CM, MedDRA, and RxNorm."
+    },
+    {
+      "name": "lookup_ctcae",
+      "description": "Look up NCI CTCAE v5.0
