@@ -1,0 +1,2 @@
+runtime: container
+entrypoint: node index.js
