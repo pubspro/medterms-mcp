@@ -87,3 +87,6 @@ All free, public APIs — no API key required:
 ---
 
 *Built by a CMPP-certified PhD in Neuroscience with 10+ years in pharma medical communications.*
+
+
+**Free tier** includes `lookup_icd10` and `lookup_rxnorm`. Paid tiers unlock the **Advanced Terminology Intelligence** tools: `lookup_meddra`, `lookup_ctcae`, `crossmap_icd_meddra`, and `search_medical_concept`.
