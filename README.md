@@ -79,9 +79,10 @@ All free, public APIs — no API key required:
 
 | Tier | Calls/month | Price |
 |------|------------|-------|
-| Free | 100 | $0 |
-| Pro | 10,000 | $29/mo |
-| Enterprise | Unlimited + SLA | $149/mo |
+| Free | 25 | $0 |
+| Pro | 1,000 | $39/mo ($374/yr) |
+| Business | 5,000 | $89/mo ($854/yr) |
+| Ultra | 10,000 | $129/mo ($1,238/yr) |
 
 ---
 
