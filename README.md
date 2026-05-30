@@ -1,5 +1,7 @@
 # MedTerms MCP Server
 
+[![MCPize](https://mcpize.com/badge/@pubspro/medterms)](https://mcpize.com/mcp/medterms)
+
 
 **Medical terminology intelligence for AI agents.**
 
